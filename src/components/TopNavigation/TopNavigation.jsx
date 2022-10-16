@@ -44,12 +44,12 @@ class TopNavigation extends Component {
       
     </Nav>
     <Nav>
-      <Nav.Link className={this.state.navBarItem} href="#deets">HOME</Nav.Link>
-      <Nav.Link className={this.state.navBarItem} href="#deets">ABOUT</Nav.Link>
-      <Nav.Link className={this.state.navBarItem}  href="#deets">SERVICE</Nav.Link>
-      <Nav.Link className={this.state.navBarItem} href="#deets">COURSES</Nav.Link>
-      <Nav.Link className={this.state.navBarItem} href="#deets">PORTFOLIO</Nav.Link>
-      <Nav.Link className={this.state.navBarItem} href="#deets">CONTACT US</Nav.Link>
+      <Nav.Link className={this.state.navBarItem} href="#deets">Kezdőlap</Nav.Link>
+      <Nav.Link className={this.state.navBarItem} href="#deets">Rólunk</Nav.Link>
+      <Nav.Link className={this.state.navBarItem}  href="#deets">Szolgáltatásaink</Nav.Link>
+      <Nav.Link className={this.state.navBarItem} href="#deets">Termékek</Nav.Link>
+      <Nav.Link className={this.state.navBarItem} href="#deets">Értékelések</Nav.Link>
+      <Nav.Link className={this.state.navBarItem} href="#deets">Kapcsolat</Nav.Link>
      
        
     </Nav>
