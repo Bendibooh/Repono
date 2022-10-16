@@ -12,9 +12,9 @@ class TopBanner extends Component {
                <Container className="topContent">
                     <Row>
                <Col className="text-center">
-               <h1>EASY LEARNING</h1>
-               <h4>Learn Profesionally</h4>
-               <Button variant="primary">Learn More</Button>
+               <h1>Repono</h1>
+               <h4>Solution Kft.</h4>
+               <Button variant="primary">Továbbiak</Button>
 
                </Col>
                     </Row> 
