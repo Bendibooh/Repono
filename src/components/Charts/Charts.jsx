@@ -8,14 +8,14 @@ class Charts extends Component {
           super();
           this.state={
             data:[
-                {Techonology:'Acél',Projects:100},
-                {Techonology:'Vas',Projects:90},
-                {Techonology:'Réz',Projects:95},
-                {Techonology:'Öntöttvas',Projects:85},
-                {Techonology:'Gyémánt',Projects:80},
-                {Techonology:'Izé',Projects:70},
-                {Techonology:'Raktár',Projects:60},
-                {Techonology:'Tervezés',Projects:100}                   
+                {Techonology:'Acél',Kivitelezett:100},
+                {Techonology:'Vas',Kivitelezett:90},
+                {Techonology:'Réz',Kivitelezett:95},
+                {Techonology:'Öntöttvas',Kivitelezett:85},
+                {Techonology:'Gyémánt',Kivitelezett:80},
+                {Techonology:'Izé',Kivitelezett:70},
+                {Techonology:'Raktár',Kivitelezett:60},
+                {Techonology:'Tervezés',Kivitelezett:100}                   
             ]
           }
      }
@@ -36,7 +36,7 @@ class Charts extends Component {
 
                <XAxis dataKey="Techonology" /> 
                <Tooltip />
-               <Bar dataKey="Projects" fill={blue}>
+               <Bar dataKey="Kivitelezett" fill={blue}>
 
                </Bar>
 
