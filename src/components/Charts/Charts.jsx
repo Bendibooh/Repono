@@ -8,14 +8,14 @@ class Charts extends Component {
           super();
           this.state={
             data:[
-                {Techonology:'Acél',Kivitelezett:100},
-                {Techonology:'Vas',Kivitelezett:90},
-                {Techonology:'Réz',Kivitelezett:95},
-                {Techonology:'Öntöttvas',Kivitelezett:85},
-                {Techonology:'Gyémánt',Kivitelezett:80},
-                {Techonology:'Izé',Kivitelezett:70},
-                {Techonology:'Raktár',Kivitelezett:60},
-                {Techonology:'Tervezés',Kivitelezett:100}                   
+                {Techonology:'1',Kivitelezett:100},
+                {Techonology:'2',Kivitelezett:90},
+                {Techonology:'3',Kivitelezett:95},
+                {Techonology:'4',Kivitelezett:85},
+                {Techonology:'5',Kivitelezett:80},
+                {Techonology:'6',Kivitelezett:70},
+                {Techonology:'7',Kivitelezett:60},
+                {Techonology:'8',Kivitelezett:100}                   
             ]
           }
      }
