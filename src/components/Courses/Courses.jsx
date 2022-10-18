@@ -19,7 +19,7 @@ class Courses extends Component {
                <Col lg={6} md={6} sm={12}>
                     <h5 className="text-justify serviceName">Tesztecske 1 </h5>
                     <p className="text-justify serviceDescription">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a className="courseViewMore float-left" href="#" >View Details</a>
+                    <a className="courseViewMore float-left" href="/#" >View Details</a>
                </Col>
 
 
@@ -31,7 +31,7 @@ class Courses extends Component {
                <Col lg={6} md={6} sm={12}>
                     <h5 className="text-justify serviceName">Tesztecske 2  </h5>
                     <p className="text-justify serviceDescription">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a className="courseViewMore float-left" href="#" >View Details</a>
+                    <a className="courseViewMore float-left" href="/#" >View Details</a>
                </Col> 
 
 
@@ -51,7 +51,7 @@ class Courses extends Component {
                <Col lg={6} md={6} sm={12}>
                     <h5 className="text-justify serviceName">Tesztecske 3  </h5>
                     <p className="text-justify serviceDescription">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a className="courseViewMore float-left" href="#" >View Details</a>
+                    <a className="courseViewMore float-left" href="/#" >View Details</a>
                </Col>
 
 
@@ -63,7 +63,7 @@ class Courses extends Component {
                <Col lg={6} md={6} sm={12}>
                     <h5 className="text-justify serviceName">Tesztecske 4  </h5>
                     <p className="text-justify serviceDescription">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a className="courseViewMore float-left" href="#" >View Details</a>
+                    <a className="courseViewMore float-left" href="/#" >View Details</a>
                </Col> 
 
 
