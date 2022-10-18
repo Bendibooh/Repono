@@ -10,7 +10,7 @@ class Services extends Component {
           return (
 <Fragment>
      <Container className="text-center">
-          <h1 className="serviceMainTitle">Szolgáltatások</h1>
+          <h1 className="serviceMainTitle">HOGYAN MŰKÖDÜNK?</h1>
                <div className="bottom"></div>
           <Row>  
                <Col lg={4} md={6} sm={12}>
