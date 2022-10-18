@@ -36,8 +36,8 @@ class Footer extends Component {
      <h2 className="footerName">Address </h2>
      <p className="footerDescription">
           9022, Lorem Ipsum, Lorem ipsum <br></br>
-          <FontAwesomeIcon icon={faEnvelope}  /> Email : Support@text.com<br></br>
-          <FontAwesomeIcon icon={faPhone}  /> Phone : 434343434<br></br>
+          <FontAwesomeIcon icon={faEnvelope}  /> Email: Support@text.com<br></br>
+          <FontAwesomeIcon icon={faPhone}  /> Phone: 434343434<br></br>
      </p>
      </Col>
 
@@ -51,9 +51,9 @@ class Footer extends Component {
 
      <Col lg="3" md={6} sm={12} className="p-5 text-justify">
      <h2 className="footerName">Policy  </h2>
-     <a className="footerLink" href="/#">Fefund Policy  </a> <br></br>
-     <a className="footerLink" href="/#">Trems And Condition  </a> <br></br>
-     <a className="footerLink" href="/#">Privaci Policy   </a> <br></br>
+     <a className="footerLink" href="/#">Xyz  </a> <br></br>
+     <a className="footerLink" href="/#">Xyz  </a> <br></br>
+     <a className="footerLink" href="/#">Xyz   </a> <br></br>
      </Col>
                          </Row>
                     </Container>
