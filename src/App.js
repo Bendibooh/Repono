@@ -5,6 +5,7 @@ import Charts from './components/Charts/Charts';
 import Summary from './components/Summary/Summary';
 import RecentProject from './components/RecentProject/RecentProject';
 import Courses from './components/Courses/Courses';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Summary/>
     <RecentProject/>
     <Courses />
+    <Footer />
   </div>
   );
 }
