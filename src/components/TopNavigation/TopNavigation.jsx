@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Navbar,Nav } from 'react-bootstrap'
+import {Link, NavLink} from "react-router-dom"
 import whiteLogo from '../../asset/image/logo_white.png';
 import blackLogo from '../../asset/image/logo_black.png';
 import '../../asset/css/custom.css';
@@ -7,22 +8,23 @@ import '../../asset/css/bootstrap.min.css';
 
 class TopNavigation extends Component {
 
-     constructor(){
-          super();
+     constructor(props){
+          super(props);
           this.state={
                navBarTitle:"navTitle",
                navBarLogo: [whiteLogo], // object
                navVariant:"dark",
                navBarBack:"navBackground",
-               navBarItem:"navItem"
+               navBarItem:"navItem",
+               pageTitle:props.title
           }
      }
 
      onScroll=()=>{
-          if(window.scrollY>100){
+          if(window.scrollY>99){
                this.setState({navBarTitle:'navTitleScroll',navBarLogo:[blackLogo],navBarBack:'navBackgroundScroll',navBarItem:'navItemScroll',navVariant:'light'})
 
-          }else if(window.scrollY<100){
+          }else if(window.scrollY<99){
 
                this.setState({navBarTitle:'navTitle',navBarLogo:[whiteLogo],navBarBack:'navBackground',navBarItem:'navItem',navVariant:'dark'})
           }
@@ -36,21 +38,24 @@ class TopNavigation extends Component {
      render() {
           return (
                 <Fragment>
-  
+      <title>{this.state.pageTitle }</title>         
   <Navbar className={this.state.navBarBack} collapseOnSelect fixed="top" expand="lg" variant={this.state.navVariant}>
-  <Navbar.Brand className={this.state.navBarTitle} href="#home"> <img className="logo" src={this.state.navBarLogo} alt="---"/> </Navbar.Brand>
+  <Navbar.Brand className={this.state.navBarTitle} href="/"> <img className="logo" src={this.state.navBarLogo} alt="---"/> <NavLink to="/"></NavLink> </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
       
     </Nav>
     <Nav>
-      <Nav.Link className={this.state.navBarItem} href="#deets">Kezdőlap</Nav.Link>
-      <Nav.Link className={this.state.navBarItem} href="#deets">Rólunk</Nav.Link>
-      <Nav.Link className={this.state.navBarItem}  href="#deets">Szolgáltatásaink</Nav.Link>
-      <Nav.Link className={this.state.navBarItem} href="#deets">Termékek</Nav.Link>
-      <Nav.Link className={this.state.navBarItem} href="#deets">Értékelések</Nav.Link>
-      <Nav.Link className={this.state.navBarItem} href="#deets">Kapcsolat</Nav.Link>
+    <Nav.Link>  <Link  exact className={this.state.navBarItem} to="/">KEZDŐLAP</Link > </Nav.Link>
+
+<Nav.Link>  <Link  exact  className={this.state.navBarItem} to="/about">RÓLUNK</Link > </Nav.Link>
+
+<Nav.Link>   <Link  exact className={this.state.navBarItem} to="/minden">TERMÉKEK</Link > </Nav.Link>
+
+<Nav.Link>   <Link  exact className={this.state.navBarItem} to="/contact">KAPCSOLAT</Link > </Nav.Link>
+
+
      
        
     </Nav>
