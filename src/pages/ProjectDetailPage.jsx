@@ -3,7 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap'
 import projectDetails from '../asset/image/pdetails.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCheckSquare} from '@fortawesome/free-solid-svg-icons'
-
+import TopNavigation from '../components/TopNavigation/TopNavigation';
+import PageTop from '../components/PageTop/PageTop';
 
 class ProjectDetails extends Component {
     componentDidMount(){
@@ -12,6 +13,8 @@ class ProjectDetails extends Component {
      render() {
           return (
               <Fragment>
+               <TopNavigation title="Részlétek" /> 
+                   <PageTop pagetitle="Részlétek" />
                    <Container className="mt-5">
                         <Row>
      <Col lg={6} md={6} sm={12}>
