@@ -13,7 +13,7 @@ class AllServicePage extends Component {
           return (
              <Fragment>
                <TopNavigation title="All Courses" />  
-                  <PageTop pagetitle="Our Services" />
+                  <PageTop pagetitle="Szolgáltatások" />
                   <Services />
                   <ContactSec />
                   <Footer />
