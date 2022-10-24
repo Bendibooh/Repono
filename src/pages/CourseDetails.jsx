@@ -12,7 +12,7 @@ import TopNavigation from '../components/TopNavigation/TopNavigation'
           return (
                 <Fragment>
                      <TopNavigation title="Course Details " />  
-                     <PageTop pagetitle="Course Details" /> 
+                     <PageTop pagetitle="Részletek" /> 
                      <CourseDetails />
                      <Footer />
                 </Fragment>
