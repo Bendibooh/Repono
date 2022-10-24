@@ -13,7 +13,7 @@ import TopNavigation from '../components/TopNavigation/TopNavigation'
           return (
                 <Fragment>
                  <TopNavigation title="About Us" />  
-                 <PageTop pagetitle="About Us" />  
+                 <PageTop pagetitle="Rólunk" />  
                 
                  <RolunkDesc />
                  <Footer />
