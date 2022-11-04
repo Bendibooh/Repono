@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Container, Row, Button } from 'react-bootstrap'
+import reponologo from '../../asset/image/reponohatter.svg';
 
 
 class TopBanner extends Component {
@@ -11,8 +12,8 @@ class TopBanner extends Component {
                <Container className="topContent">
                     <Row>
                <Col className="text-center">
-               <h1 className="topTitle">Repono</h1>
-               <h4 className="topSubTitle">Solution kft</h4>
+               <img className="reponoLogo" src={reponologo} alt="..." />
+               <h4 className="topSubTitle">Solution KFT.</h4>
                <Button variant="primary">Kapcsolat</Button>
                
                </Col>
