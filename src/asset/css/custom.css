@@ -486,7 +486,7 @@ a.twitter{
 
 .loader-line-wrap {
     animation: 
-    spin 2000ms  cubic-bezier(.175, .885, .32, 1.275) infinite;
+    spin 2600ms  cubic-bezier(1,0,1,.98) infinite;
     box-sizing: border-box;
     left: 0;
     overflow: hidden;
