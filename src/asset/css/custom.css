@@ -213,14 +213,9 @@
     text-decoration: none;
 }
 .footerSection{
-    margin-top: 5rem;
-    box-shadow: 0 0 8px 0;
-    -webkit-transition: background-color 400ms linear;
-    -moz-transition: background-color 400ms linear;
-    -o-transition: background-color 400ms linear;
-    transition: background-color 400ms linear;
-    background-color: rgba(36, 36, 36, 0.5)!important;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+    background: #bbd2c5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bbd2c5, #536976, #292e49); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bbd2c5, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .footerName{
@@ -272,8 +267,9 @@ a.twitter{
 .copyrightSection{
     padding: 20px 20px 20px 20px;
     background: #bdc3c7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #bbd2c5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bbd2c5, #536976, #292e49); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bbd2c5, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-size: 15px;
     font-weight: 400;
 }
