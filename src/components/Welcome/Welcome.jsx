@@ -21,7 +21,7 @@ import imgthree from '../../asset/image/21.png';
                <h6 className="sub-title double-line">ÜDVÖZÖLLEK</h6>
                <h2 className="maintitle">
     A Repono<br></br>
-    Solution KfT. oldalán!
+    Solution KFT. oldalán!
                </h2>
 
 
