@@ -457,3 +457,63 @@ a.twitter{
 .reponoLogo{
     width: 50%;
 }
+.LoaderAnimation{
+    width: 140px;
+    height: 140px;
+}
+.loader{
+    border-radius: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.834);
+    animation: loader 2s ease 0s 1 normal forwards;
+    background: linear-gradient(132deg, #000 0%, rgb(122, 122, 122) 100%);
+}
+@keyframes loader {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
