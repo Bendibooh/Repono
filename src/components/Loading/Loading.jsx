@@ -10,7 +10,14 @@ class Loading extends Component {
                     <Container className="text-center">
                          <Row>
                               <Col>
-                              <object type="image/svg+xml" data={LoaderIcon} className="loader" aria-labelledby="ReactLogo" />
+                              <div class="loader">
+  <div class="loader-inner">
+    <div class="loader-line-wrap">
+      <div class="loader-line"></div>
+    </div>
+
+  </div>
+</div>
                               </Col>
                          </Row>
                     </Container>
