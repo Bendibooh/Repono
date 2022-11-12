@@ -462,8 +462,8 @@ a.twitter{
     height: 140px;
 }
 .loader {
-    background: #000;
-    background: radial-gradient(#222, #000);
+    background: rgb(135,135,135);
+background: linear-gradient(161deg, rgba(135,135,135,1) 0%, rgba(0,0,0,1) 56.00000000000001%, rgba(210,204,204,1) 76%, rgba(46,43,43,1) 79%);
     bottom: 0;
     left: 0;
     overflow: hidden;
