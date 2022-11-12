@@ -142,7 +142,7 @@
     position: absolute;
     min-height: 400px;
     width: 100%;
-    background: rgba(27, 31, 92, 0.7);
+    background: rgba(94, 94, 100, 0.7);
 }
 .countNumber{
     color: #ffffff;
@@ -172,8 +172,8 @@
     font-size: 14px;
 }
 .workCard{
-    margin-top: 25%;
-    padding: 10px 10px 10px 10px;
+    margin-top: 2em;
+    padding: 1em 1em 1em 1em;
     border-radius: 3px;
 }
 .iconBullent{
@@ -186,7 +186,8 @@
 }
 .projectCard{
     background: #ffffff;
-    width: 22em;
+    width: 20em;
+    padding: 10px 10px 10px 10px;
     border-radius: 0.6em;
     margin: 1em;
     cursor: pointer;

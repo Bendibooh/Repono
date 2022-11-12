@@ -1,0 +1,53 @@
+@media (max-width: 575.98px) {
+    .topTitle{ font-size: 30px !important; } 
+    .topSubTitle{ font-size: 16px !important;  }
+    .projectCard{ width: 26em; margin-top: 10px !important; }
+    .aboutMeImage{  width: 400px; height: 400px !important;  }
+    .summaryBanner{width: 400px; height: 400px !important;}
+    .serviceMainTitle{font-size: 30px; margin-top: 160px!important;}
+    .workCard {
+        margin-top: 20px !important; 
+        border-radius: 3px;
+        background: #b0adad;
+        font-family: 'Montserrat',sans-serif;
+        width: 20em;
+        padding: 10px 10px 10px 10px;
+        border-radius: 0.6em;
+        margin: 1em;
+        box-shadow: 0 13px 25px -5px;
+        transition: all ease 200ms !important;}
+    .row{margin-top: 7em !important;}
+    .countNumber{font-size: 16px !important;}
+    .countTitle{font-size: 16px !important;}
+    .countSection {font-size: 16px !important;}
+    .summaryBannerOverlay{height: 16px !important;}
+    .cardTitle {font-size: 30px !important;}
+    .homeIntro{font-size: 27px !important;padding: 10px 10px 10px 10px;}
+    .serviceDescription {font-size: 20px !important;}
+    .serviceCard{    margin: 1px 1px 1px 1px !important;
+        height: 30rem !important;
+        padding: 60px 30px 60px 30px;
+        box-shadow: 0 0 8px 0 rgb(4, 55, 105,0.2);}
+    .col-lg-6.col-md-12.col-sm-12{font-size: 1px !important;}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .topTitle{ font-size: 38px !important; }
+    .topSubTitle{ font-size: 19px !important;  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+
+@media (min-width: 1200px) { 
+
+}
