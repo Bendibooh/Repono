@@ -12,7 +12,7 @@ import TopNavigation from '../components/TopNavigation/TopNavigation'
           return (
               <Fragment>
                    <TopNavigation title="Our Services" />  
-                   <PageTop pagetitle="Contact Us" />
+                   <PageTop pagetitle="Kapcsolat" />
                    <ContactSec />
                    <Footer />
               </Fragment>

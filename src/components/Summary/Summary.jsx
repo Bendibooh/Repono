@@ -77,7 +77,7 @@ class Summary extends Component {
      <Card className="workCard" >
  
   <Card.Body>
-    <Card.Title className="cardTitle">Mit nyújtunk a számodra?</Card.Title>
+    <Card.Title className="cardTitle">Mit nyújtunk számodra?</Card.Title>
     <Card.Text>
       <p className="cardSubTitle text-justify"><FontAwesomeIcon className="iconBullent" icon={faCheckSquare} /> Pontos Munkavégzés</p>
       <p className="cardSubTitle text-justify"><FontAwesomeIcon className="iconBullent" icon={faCheckSquare} /> Elérhető Árak</p>

@@ -16,7 +16,7 @@ export class HomePage extends Component {
   render() {
     return (
 <Fragment>
-<TopNavigation title="Contact Us" /> 
+<TopNavigation title="Kezdőlap" /> 
       <TopBanner /> 
       <Welcome />    
     <Services />
