@@ -3,7 +3,7 @@ import { Col, Container, Row, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import reponologo from '../../asset/image/reponohatter.svg';
 
-
+//CustomButton animation on hover black linear gradien
 
 
 class TopBanner extends Component {
@@ -15,9 +15,9 @@ class TopBanner extends Component {
                <Container className="topContent">
                     <Row>
                <Col className="text-center">
-               <img className="reponoLogo" src={reponologo} alt="..." />
-               <h4 className="topSubTitle">Solution KFT.</h4>
-               <Link to="/contact"> <Button variant="primary">Kapcsolat</Button></Link> 
+               <img className="reponoLogo " src={reponologo} alt="..." />
+              <br></br>
+               <Link  to="/contact"  > <h1 className="CutsomButton-78" >Kapcsolat</h1></Link> 
                
                </Col>
                     </Row> 
