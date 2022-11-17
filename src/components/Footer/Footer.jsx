@@ -1,9 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { Component, Fragment } from 'react'
 import { Col, Row, Container } from 'react-bootstrap'
-import {faFacebook} from '@fortawesome/free-brands-svg-icons'
-import {faYoutube} from '@fortawesome/free-brands-svg-icons'
-import {faTwitter} from '@fortawesome/free-brands-svg-icons'
+
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {faPhone} from '@fortawesome/free-solid-svg-icons'
 import imgone from '../../asset/image/logo-tuev-sued.png'
@@ -21,13 +19,13 @@ class Footer extends Component {
           
           <div className="social-container">
      
-             <img className="sideImg" src={imgone} />  
+             <img className="sideImg" alt="..." src={imgone} />  
         
 
-          <img className="sideImg" src={imgtwo}/>  
+          <img className="sideImg" alt="..." src={imgtwo}/>  
 
 
-          <img className="sideImg" src={imgthree} />  
+          <img className="sideImg"  alt="..."src={imgthree} />  
 
           </div>
 
