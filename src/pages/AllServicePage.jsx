@@ -3,7 +3,6 @@ import ContactSec from '../components/ContactSec/ContactSec'
 import Footer from '../components/Footer/Footer'
 import PageTop from '../components/PageTop/PageTop'
 import RecentProject from '../components/RecentProject/RecentProject'
-import Services from '../components/Services/Services'
 import TopNavigation from '../components/TopNavigation/TopNavigation'
 
 
