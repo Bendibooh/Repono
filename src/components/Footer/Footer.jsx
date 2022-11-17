@@ -55,13 +55,14 @@ class Footer extends Component {
      <a className="footerLink" href="/#">Xyz  </a> <br></br>
      <a className="footerLink" href="/#">Xyz   </a> <br></br>
      </Col>
+     <a className="text-center copyrightlink" href="/#">© Copyright 2022, by Tesztecske</a>
                          </Row>
                     </Container>
 
 
-      <Container fluid={true} className="text-center copyrightSection">
-<a className="copyrightlink" href="/#">© Copyright 2022, by Tesztecske</a>
-               </Container>
+ 
+
+            
 
 
 

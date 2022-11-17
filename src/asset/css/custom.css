@@ -215,8 +215,8 @@
 }
 .footerSection{
     background: #bbd2c5; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #bbd2c5, #536976, #292e49); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #bbd2c5, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(135,135,135);;
+    background: linear-gradient(161deg, rgba(135,135,135,1) 0%, rgba(0,0,0,0.9557866719242902) 71%, rgba(210,204,204,1) 77%, rgba(46,43,43,1) 81%);
 
 }
 .footerName{
@@ -267,10 +267,8 @@ a.twitter{
 }
 .copyrightSection{
     padding: 20px 20px 20px 20px;
-    background: #bdc3c7; /* fallback for old browsers */
-    background: #bbd2c5; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #bbd2c5, #536976, #292e49); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #bbd2c5, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(135,135,135);
+background: linear-gradient(161deg, rgba(135,135,135,1) 0%, rgba(0,0,0,0.9557866719242902) 71%, rgba(210,204,204,1) 77%, rgba(46,43,43,1) 81%);
     font-size: 15px;
     font-weight: 400;
 }
@@ -362,8 +360,8 @@ a.twitter{
     border-radius: 0 0 7px 7px;
 }
 .bg-base {
-    background: -webkit-linear-gradient(to right, #bbd2c5, #536976, #292e49); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #bbd2c5, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(135,135,135);
+    background: linear-gradient(161deg, rgba(135,135,135,1) 0%, rgba(0,0,0,1) 56.00000000000001%, rgba(210,204,204,1) 76%, rgba(46,43,43,1) 79%);
 }
 .sideImg{
      margin-top: -15px;
