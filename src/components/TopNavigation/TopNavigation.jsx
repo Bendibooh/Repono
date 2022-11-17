@@ -53,7 +53,7 @@ class TopNavigation extends Component {
 
 <Nav.Link>  <Link  exact  className={this.state.navBarItem} to="/about">RÓLUNK</Link > </Nav.Link>
 
-<Nav.Link>   <Link  exact className={this.state.navBarItem} to="/minden">TERMÉKEK</Link > </Nav.Link>
+<Nav.Link>   <Link  exact className={this.state.navBarItem} to="/minden">SZOLGÁLTATÁSOK</Link > </Nav.Link>
 
 <Nav.Link>   <Link  exact className={this.state.navBarItem} to="/contact">KAPCSOLAT</Link > </Nav.Link>
 

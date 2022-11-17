@@ -2,8 +2,10 @@ import React, { Component, Fragment } from 'react'
 import ContactSec from '../components/ContactSec/ContactSec'
 import Footer from '../components/Footer/Footer'
 import PageTop from '../components/PageTop/PageTop'
+import RecentProject from '../components/RecentProject/RecentProject'
 import Services from '../components/Services/Services'
 import TopNavigation from '../components/TopNavigation/TopNavigation'
+
 
 class AllServicePage extends Component {
      componentDidMount(){
@@ -14,7 +16,7 @@ class AllServicePage extends Component {
              <Fragment>
                <TopNavigation title="All Courses" />  
                   <PageTop pagetitle="Szolgáltatások" />
-                  <Services />
+                  <RecentProject/>
                   <ContactSec />
                   <Footer />
              </Fragment>

@@ -146,13 +146,13 @@
     background: rgba(94, 94, 100, 0.7);
 }
 .countNumber{
-    color: #ffffff;
+    color: #949494;
     font-family: 'Montserrat',sans-serif;
     font-weight: 700;
     font-size: 40px;
 }
 .countTitle{
-    color: #ffd900;
+    color: #f4f4f4;
     font-family: 'Raleway',sans-serif;
     font-weight: 600;
     font-size: 22px;
@@ -362,10 +362,12 @@ a.twitter{
     border-radius: 0 0 7px 7px;
 }
 .bg-base {
-    background: #fdc800;
+    background: -webkit-linear-gradient(to right, #bbd2c5, #536976, #292e49); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bbd2c5, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .sideImg{
      margin-top: -15px;
+     margin-left: 35%;
 }
 .homeIntro{
     font-family: 'Montserrat',sans-serif;
@@ -393,7 +395,7 @@ a.twitter{
     height: 80%;
     top: 50%;
     border-radius: 10px;
-    background: #fdc800;
+    background: #292e49;
     z-index: -1;
     transform: translateY(-50%);
 }
@@ -537,3 +539,7 @@ background: linear-gradient(161deg, rgba(135,135,135,1) 0%, rgba(0,0,0,1) 56.000
 }
 
 
+.WelcomeImg{
+    width: 240px;
+    height: 240px;
+}

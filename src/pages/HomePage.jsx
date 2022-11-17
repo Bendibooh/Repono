@@ -8,6 +8,7 @@ import RecentProject from '../components/RecentProject/RecentProject';
 import Courses from '../components/Courses/Courses';
 import Footer from '../components/Footer/Footer';
 import Welcome from '../components/Welcome/Welcome';
+import ContactSec from '../components/ContactSec/ContactSec'
 
 export class HomePage extends Component {
   componentDidMount(){
@@ -19,11 +20,9 @@ export class HomePage extends Component {
 <TopNavigation title="Kezdőlap" /> 
       <TopBanner /> 
       <Welcome />    
-    <Services />
-    <Charts/>
-    <Summary/>
     <RecentProject/>
     <Courses />
+    <ContactSec />
     <Footer />
 </Fragment>
     )
