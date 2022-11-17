@@ -6,6 +6,9 @@ import {faYoutube} from '@fortawesome/free-brands-svg-icons'
 import {faTwitter} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {faPhone} from '@fortawesome/free-solid-svg-icons'
+import imgone from '../../asset/image/logo-tuev-sued.png'
+import imgtwo from '../../asset/image/logo-ce-white.png'
+import imgthree from '../../asset/image/ihk-koeln.png';
 
 class Footer extends Component {
      render() {
@@ -13,19 +16,19 @@ class Footer extends Component {
                <Fragment>
       <Container fluid={true} className="footerSection">
                          <Row>
-     <Col lg="3" md={6} sm={12} className="p-5 text-center">
-     <h2 className="footerName text-center">Follow Us </h2>
+     <Col lg={2} md={6} sm={12} className="p-5 text-center">
+     <h2 className="footerName text-center">Test </h2>
           
           <div className="social-container">
-          <a className="facebook social" href="/#">
-             <FontAwesomeIcon icon={faFacebook} size="2x" />  
-          </a>
-          <a href="/#"  className="youtube social">
-          <FontAwesomeIcon icon={faYoutube} size="2x" />  
-          </a>
-          <a href="/#"  className="twitter social">
-          <FontAwesomeIcon icon={faTwitter} size="2x" />  
-          </a> 
+     
+             <img className="sideImg" src={imgone} />  
+        
+
+          <img className="sideImg" src={imgtwo}/>  
+
+
+          <img className="sideImg" src={imgthree} />  
+
           </div>
 
      </Col>
