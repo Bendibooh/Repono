@@ -28,22 +28,22 @@ import { Link } from 'react-router-dom';
                <Col lg={4} md={6} sm={12}>
                     <img className="WelcomeImg" src={pageone}  alt="..."/>
                     <h1 className="serviceName">Soros raklapos állványrendszer </h1>
-                    <p className="serviceDescription">Lorem ipsum dolor</p>
-                    <Link to="/serviceDetails"> <Button variant="primary">Részletek</Button></Link>
+                    <p className="serviceDescription ">Lorem ipsum dolor</p>
+                    <Link to="/serviceDetails"> <Button className="WelcomeButton" variant="primary">Részletek</Button></Link>
                </Col>
 
                <Col lg={4} md={6} sm={12}>
                <img  className="WelcomeImg"  src={pagetwo} alt="..."/>
                <h1 className="serviceName">Karos állványrendszerek </h1>
                <p className="serviceDescription">Lorem ipsum dolor</p>
-               <Link to="/serviceDetails"> <Button variant="primary">Részletek</Button></Link>
+               <Link to="/serviceDetails"> <Button className="WelcomeButton" variant="primary">Részletek</Button></Link>
                </Col>
 
                <Col lg={4} md={6} sm={12}>
                <img className="WelcomeImg" src={pagethree} alt="..."/>
                <h1 className="serviceName">Bejárható állványrendszerek  </h1>
                <p className="serviceDescription">Lorem ipsum dolor</p>
-               <Link to="/serviceDetails"> <Button variant="primary">Részletek</Button></Link>
+               <Link to="/serviceDetails"> <Button className="WelcomeButton" variant="primary">Részletek</Button></Link>
                </Col>
           </Row>
 
