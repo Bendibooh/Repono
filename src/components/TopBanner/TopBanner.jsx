@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Col, Container, Row, Button } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import reponologo from '../../asset/image/reponohatter.svg';
 
@@ -17,7 +17,7 @@ class TopBanner extends Component {
                <Col className="text-center">
                <img className="reponoLogo " src={reponologo} alt="..." />
               <br></br>
-               <Link  to="/contact"  style={{ textDecoration:'none' }}> <a className="center Cutsombutton-85" >Kapcsolat</a></Link> 
+               <Link  to="/contact"  style={{ textDecoration:'none' }}> <a href="/#" className="center Cutsombutton-85" >Kapcsolat</a></Link> 
                
                </Col>
                     </Row> 
