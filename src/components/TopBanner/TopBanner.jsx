@@ -17,7 +17,7 @@ class TopBanner extends Component {
                <Col className="text-center">
                <img className="reponoLogo " src={reponologo} alt="..." />
               <br></br>
-               <Link  to="/contact"  > <h1 className="CutsomButton-78" >Kapcsolat</h1></Link> 
+               <Link  to="/contact"  style={{ textDecoration:'none' }}> <a className="center Cutsombutton-85" >Kapcsolat</a></Link> 
                
                </Col>
                     </Row> 
