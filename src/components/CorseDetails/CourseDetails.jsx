@@ -35,11 +35,11 @@ import { Player, BigPlayButton } from 'video-react'
 <h4 class="widget-title text-center">Szolgáltatásaink</h4>
 <hr />
 <ul>
-<li><FontAwesomeIcon className="iconBullent" icon={faUser} /> <span> Test :</span> 0000</li>
+<li><FontAwesomeIcon className="iconBullent" icon={faUser} /> <span> Test:</span> 0000</li>
 
-<li><FontAwesomeIcon className="iconBullent" icon={faClock} /> <span>Test :</span> 1</li>
+<li><FontAwesomeIcon className="iconBullent" icon={faClock} /> <span>Test:</span> 1</li>
 
-<li><FontAwesomeIcon className="iconBullent" icon={faClipboard} /> <span>Test :</span> 2</li>
+<li><FontAwesomeIcon className="iconBullent" icon={faClipboard} /> <span>Test:</span> 2</li>
 
 <li><FontAwesomeIcon className="iconBullent" icon={faClone} /> <span>Test:</span> 3</li>
 
