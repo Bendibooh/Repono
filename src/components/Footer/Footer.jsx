@@ -14,7 +14,7 @@ class Footer extends Component {
                <Fragment>
       <Container fluid={true} className="footerSection">
                          <Row>
-     <Col lg={2} md={6} sm={12} className="p-5 text-center">
+     <Col lg={2} md={6} sm={12} className="p-4">
      <h2 className="footerName text-center">Test </h2>
           
           <div className="social-container">

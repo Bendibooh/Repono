@@ -367,8 +367,15 @@ background: linear-gradient(161deg, rgba(135,135,135,1) 0%, rgba(0,0,0,0.9557866
 .sideImg{
      margin-top: 15px;
      text-align: center;
-     width: 3em;
-     height: 3em;
+     width: 20%;
+     height: 20%;
+     margin-left: 10%;
+     border-radius: 50%;
+}
+.sideImg img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
 }
 .homeIntro{
     font-family: 'Montserrat',sans-serif;
